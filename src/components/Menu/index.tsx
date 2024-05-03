@@ -1,8 +1,7 @@
-import { useState } from "react";
 
 const Menu = () => {
-    const [OpenContent, setOpenContent] = useState(false);
-    const toggleOpen = () => setOpenContent((cur: boolean) => !cur);
+    // const [OpenContent, setOpenContent] = useState(false);
+    // const toggleOpen = () => setOpenContent((cur: boolean) => !cur);
 
   return (
     <div className='w-48 bg-white opacity-50 rounded-r-lg shadow-lg h-screen flex'>
